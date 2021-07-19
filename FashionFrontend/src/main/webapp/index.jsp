@@ -5,13 +5,13 @@
     <h2>Home Page</h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         
-        <ol class="carousel-indicators">
+        <!--<ol class="carousel-indicators">
             <li data-target="myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="myCarousel" data-slide-to="1" class="active"></li>
             <li data-target="myCarousel" data-slide-to="2" class="active"></li>
-        </ol>
+        </ol>-->
         
-        <div class="carousel-inner">
+        <!--<div class="carousel-inner">
             
             <div class="item active">
                 <img src="D:/Users/Lazar/Documents/NetBeansProjects/FashionFrontend/src/main/resources/images/5.jpg" alt="Sunflower" style="width:100%"/>
@@ -25,7 +25,7 @@
                 <img src="<c:url value='/resouces/images/5.jpg'/>" alt="Sunflower" style="width:100%"/>
             </div>
             
-            <!--Left and right-->
+            
             
             <a class="Left carousel-control" href="myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicom-chevron-left"></span>
@@ -36,6 +36,6 @@
                 <span class="glyphicon glyphicom-chevron-right"></span>
                 <span class="sr-only">Next</span>
             </a>
-            
+            -->
         
 </div>

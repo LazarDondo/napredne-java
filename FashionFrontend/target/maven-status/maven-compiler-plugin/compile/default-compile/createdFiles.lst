@@ -1,6 +1,6 @@
-eCommerce\controller\UserController.class
 eCommerce\controller\PageController.class
 eCommerce\controller\PaymentController.class
 eCommerce\controller\ProductController.class
 eCommerce\controller\CartController.class
+eCommerce\controller\UserController.class
 eCommerce\controller\CategoryController.class

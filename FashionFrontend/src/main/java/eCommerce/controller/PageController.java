@@ -41,6 +41,8 @@ public class PageController {
             @RequestParam("address") String address, @RequestParam("username") String username,
             @RequestParam("password") String password){
         User user=new User();
+        user.setRole("admin");
+        user.setEnabled(true);
         user.setCustomerName(customerName);
         user.setCustomerAddress(customerName);
         user.setUsername(username);

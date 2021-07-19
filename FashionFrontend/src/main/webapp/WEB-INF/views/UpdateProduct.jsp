@@ -44,13 +44,9 @@
                     </c:forEach>
                 </select></td></td>
         </tr>
-        <!--<tr>
-            <td>Product image</td>
-            <td><input type="file" name="prodImage" value="${categoryId}"/></td>
-        </tr>
         <a href="<c:url value="/product/display/${product.productId}"/>"class="thumbnail"/>   
-            <img src="<c:url value="/main/resources/images/${product.productId}.jpg"/>" alt="Generic placeholder thumbnail"/>
-        </a>-->
+        <img src="<c:url value="/resources/images/${product.productId}.jpg"/>" height="300" width="300" alt="Generic placeholder thumbnail"/>
+        </a>
 
         <tr>
             <td colspan="2">

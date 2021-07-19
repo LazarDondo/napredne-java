@@ -84,8 +84,9 @@ public class ProductController {
         m.addAttribute(product1);
         m.addAttribute("pageInfo", "Manager Product");
         m.addAttribute("categoryList", categoryDao.listCategories());
+        m.addAttribute("supplierList", SupplierDao.listSuppliers());
 
-        String imagePath = "D:\\Users\\Lazar\\Documents\\NetBeansProjects\\FashionFrontend\\src\\main\\resources\\images\\";
+        String imagePath = "D:\\Users\\Lazar\\Desktop\\napredne-java\\FashionFrontend\\src\\main\\webapp\\resources\\images\\";
         imagePath += String.valueOf(product.getProductId() + ".jpg");
 
         File image = new File(imagePath);
@@ -140,6 +141,7 @@ public class ProductController {
         m.addAttribute(product1);
         m.addAttribute("categoryList", categoryDao.listCategories());
         m.addAttribute("pageInfo", "Product manager");
+        m.addAttribute("supplierList", SupplierDao.listSuppliers());
         List<Product> listProducts = productDao.listProducts();
         m.addAttribute("productList", listProducts);
         return "Product";
